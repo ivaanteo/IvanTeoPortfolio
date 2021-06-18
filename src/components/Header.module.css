@@ -1,0 +1,229 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  /* padding: 0; */
+  /* padding: 0 5vw */
+}
+
+.container {
+  padding: 0 clamp(1rem, 16vw, 30rem);
+  /* margin: 0 8vw; */
+  /* height:50%; */
+  width: 100%;
+  box-sizing: border-box;
+  /* background-color: blue; */
+}
+
+.circleGradientBorder {
+  height: clamp(6rem, 15vw, 9rem);
+  width: clamp(6rem, 15vw, 9rem);
+  border-radius: 50%;
+  padding: 0.25rem;
+}
+
+.gradientAnimatedBg {
+  background: -webkit-linear-gradient(right, hotpink, orange, hotpink, orange);
+  /* hotpink, orange */
+  /* background: -webkit-linear-gradient(45deg, rgba(255, 0, 89, 1) 0%, rgba(0, 179, 255, 1) 33%, rgba(255, 0, 89, 1) 66%, rgba(0, 179, 255, 1) 100%); */
+
+  background-size: 500% 500%;
+  -webkit-animation: Animation 2s linear infinite;
+  -moz-animation: Animation 2s linear infinite;
+  animation: Animation 2s linear infinite;
+}
+
+.header img {
+  /* width: 8vw; */
+  /* width: 200px; */
+  height: clamp(6rem, 15vw, 9rem);
+  width: clamp(6rem, 15vw, 9rem);
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header h1 {
+  /* font-size: clamp(2.5rem, 8vw, 4.5rem); */
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  /* padding: 4rem; */
+  color: white;
+  word-wrap: normal;
+  line-height: clamp(2.5rem, 8vw, 4.5rem);
+  /* line-height: clamp(2.5rem, 8vw, 6rem);; */
+  margin-bottom: 0;
+}
+
+.header h1 span {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header h3 {
+  /* font-size: clamp(1.5rem, 5vw, 3rem); */
+  font-size: clamp(1.5rem, 4vw, 4rem);
+  line-height: clamp(1.5rem, 4vw, 4rem);
+  color: white;
+  opacity: 0;
+  animation: textFade 3s ease infinite alternate;
+  /* position: absolute; */
+  margin: clamp(1.5rem, 5vw, 2rem) 0 0 0;
+  /* padding-right: 8vw; */
+}
+
+.header p {
+  color: white;
+  font-size: clamp(0.8rem, 2vw, 1.5rem);
+}
+
+.header button {
+  /* width: clamp(1.5rem, 5vw, 3rem); */
+  transition: all 300ms ease;
+  transform: scale(1);
+  padding: clamp(0.5rem, 2vw, 1.2rem) clamp(1.5rem, 4vw, 2.5rem);
+  border-radius: 100rem;
+  border: none;
+  margin-top: clamp(0.5rem, 5vw, 1rem);
+  color: white;
+  font-size: clamp(0.8rem, 2vw, 1.5rem);
+  /* background-clip: content-box, border-box; */
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.header button:hover {
+  /* transform: scale(1.1); */
+  cursor: pointer;
+  animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
+  -webkit-animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
+  -moz-animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30%{
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30%{
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30%{
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes textFade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes textFade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes textFade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: -75% -75%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  100% {
+    background-position: -75% -75%;
+  }
+}
+@-moz-keyframes Animation {
+  0% {
+    background-position: -75% -75%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  100% {
+    background-position: -75% -75%;
+  }
+}
+@keyframes Animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 80% 80%;
+  }
+}
