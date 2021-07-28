@@ -1,18 +1,21 @@
-.aboutMe {
+.projectContainer {
   display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   width: 100%;
-  background-color: black;
+  /* justify-content: space-between; */
 }
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.descContainer {
+  width: 30vw;
+  padding-right: 3vw;
+  padding-bottom: 2rem;
+}
+.descContainer p span {
+  /* color: red; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.descContainer p{
+    margin: 0
 }
 
 .gradientAnimatedBg {
@@ -23,28 +26,31 @@
   animation: Animation 2s linear infinite;
 }
 
-.aboutMe h1{
-  width: 67vw;
+.carouselImg {
+  width: 20vw;
+  border-radius: 1.5rem;
 }
 
-.aboutMe h3{
-  width: 33vw;
-}
-.longText{
-  width: 67vw;
-}
-.aboutMe span {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.carouselContainer {
+  outline: none;
 }
 
-.languagesContainer{
-  display: flex;
+@media screen and (max-width: 768px) {
+  .carouselImg {
+    width: 30vw;
+  }
 }
 
-.descContainer {
-  width: 30vw;
-  padding-right: 3vw;
+@media screen and (max-width: 480px) {
+  .projectContainer {
+    flex-direction: column;
+  }
+  .descContainer {
+    width: 100%;
+  }
+  .carouselImg {
+    width: 66vw;
+  }
 }
 
 @-webkit-keyframes Animation {

@@ -1,3 +1,7 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
 body {
   margin: 0;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -12,6 +16,7 @@ h1 {
   font-variant: normal;
   font-weight: 700;
   line-height: 26.4px;
+  color: white;
 }
 h3 {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -20,6 +25,7 @@ h3 {
   font-variant: normal;
   font-weight: 700;
   line-height: 15.4px;
+  color: white;
 }
 p {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -28,6 +34,7 @@ p {
   font-variant: normal;
   font-weight: 400;
   line-height: 20px;
+  color: white;
 }
 blockquote {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -52,9 +59,137 @@ button {
   font-variant: normal;
   font-weight: 400;
   line-height: 20px;
+  display: block;
+  margin: 20px 0;
+  padding: clamp(0.4rem, 2vw, 0.8rem) 24px;
+  color: white;
+  font-size: clamp(0.8rem, 1.6vw, 1.5rem);
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-radius: 100rem;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-position: top center;
+  cursor: pointer;
+  background: -webkit-linear-gradient(right, hotpink, orange, hotpink, orange);
+  background-size: 500% 500%;
+  -webkit-animation: Animation 2s linear infinite;
+  -moz-animation: Animation 2s linear infinite;
+  animation: Animation 2s linear infinite;
+}
+
+button:hover {
+  /* cursor: pointer; */
+  animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
+  -webkit-animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
+  -moz-animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+hr {
+  color: #ffffff;
+  border-style: dotted hidden hidden hidden;
+  text-align: center;
+  border-width: 1rem;
+  overflow: none;
+  margin: 3rem 5rem 2rem 5rem;
+}
+
+span {
+  background: -webkit-linear-gradient(right, hotpink, orange, hotpink, orange);
+  background-size: 500% 500%;
+  -webkit-animation: Animation 2s linear infinite;
+  -moz-animation: Animation 2s linear infinite;
+  animation: Animation 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: -75% -75%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  100% {
+    background-position: -75% -75%;
+  }
+}
+@-moz-keyframes Animation {
+  0% {
+    background-position: -75% -75%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  100% {
+    background-position: -75% -75%;
+  }
+}
+@keyframes Animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 80% 80%;
+  }
 }

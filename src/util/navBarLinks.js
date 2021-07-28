@@ -1,15 +1,15 @@
 const navBarLinks = [
   {
-    to: "/",
-    text: "Home",
+    to: "/about-me",
+    text: "About Me",
   },
+  // {
+  //   to: "/experience",
+  //   text: "Experience"
+  // },
   {
-    to: "/products",
-    text: "Products",
-  },
-  {
-    to: "/about-us",
-    text: "About Us",
+    to: "/projects",
+    text: "Projects",
   },
   {
     to: "/contact",

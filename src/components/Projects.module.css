@@ -1,6 +1,7 @@
-.aboutMe {
+.projects {
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
+  padding-top: 4.25rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -8,13 +9,15 @@
   background-color: black;
 }
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.container {
+  padding: 1.5rem;
+  width: 67%;
+  box-sizing: content-box;
 }
-
+.projects h1 span {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .gradientAnimatedBg {
   background: -webkit-linear-gradient(right, hotpink, orange, hotpink, orange);
   background-size: 500% 500%;
@@ -23,28 +26,8 @@
   animation: Animation 2s linear infinite;
 }
 
-.aboutMe h1{
-  width: 67vw;
-}
-
-.aboutMe h3{
-  width: 33vw;
-}
-.longText{
-  width: 67vw;
-}
-.aboutMe span {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.languagesContainer{
-  display: flex;
-}
-
-.descContainer {
-  width: 30vw;
-  padding-right: 3vw;
+.carouselImg {
+  width: 20vw;
 }
 
 @-webkit-keyframes Animation {
