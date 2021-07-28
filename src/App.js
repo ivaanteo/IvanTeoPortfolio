@@ -1,5 +1,4 @@
 // import logo from './logo.svg';
-import "./App.css";
 import NavBar from "./components/layout/NavBar";
 // import LandingPage from "./pages/LandingPage";
 import { useRef } from "react";
