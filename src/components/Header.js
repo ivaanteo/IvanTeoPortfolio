@@ -1,10 +1,10 @@
 import classes from "./Header.module.css";
 import { useEffect, useState } from "react";
 import image from "../assets/formalPhoto.jpg";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 const Header = (props) => {
   const [index, setIndex] = useState(0);
-  const data = ["iOS Developer", "Front End Developer", "Coffee Lover"];
+  const data = ["iOS Developer", "Full Stack Developer", "Design Enthusiast"];
   useEffect(
     () =>
       setInterval(() => {
@@ -36,7 +36,7 @@ const Header = (props) => {
             Hi, I'm <span className={classes.gradientAnimatedBg}>Ivan.</span>
           </h1>
           <h3>{data[index]}</h3>
-          <p>Passionate towards code, design and a lovely cup of coffee.</p>
+          <p>Passionate towards code, design and business.</p>
           <button className={classes.gradientAnimatedBg} onClick={learnMoreClickHandler}>Learn More</button>
         </div>
       </Fade>

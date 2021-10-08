@@ -28,7 +28,8 @@ const Projects = (props) => {
               techDesc={auxboxTechDesc}
               imgs={auxBoxImages}
             />
-            <hr />
+          <hr/>
+          {/* <div/> */}
           </Fade>
           <Fade>
             <Project
@@ -37,6 +38,9 @@ const Projects = (props) => {
               techDesc={eVibeTechDesc}
               imgs={evibeImages}
             />
+          </Fade>
+          <Fade>
+            <h1>More Projects Coming Soon!</h1>
           </Fade>
         </div>
       </section>

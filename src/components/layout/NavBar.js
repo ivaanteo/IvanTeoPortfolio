@@ -1,7 +1,7 @@
 import classes from "./NavBar.module.css";
 import navBarLinks from "../../util/navBarLinks";
 import { useState } from "react";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/Ivan Teo Resume Oct 2021.pdf";
 
 const NavBar = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);

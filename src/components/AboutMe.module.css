@@ -38,6 +38,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+.spanBtn{
+  cursor: pointer;
+}
+
+.anchorLink{
+  text-decoration: none;
+}
+
 .languagesContainer{
   display: flex;
 }

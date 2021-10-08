@@ -29,7 +29,7 @@ h3 {
 }
 p {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-size: 14px;
+  font-size: clamp(0.8rem, 1.5vw, 1.1rem);
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -141,7 +141,7 @@ button:hover {
 
 hr {
   color: #ffffff;
-  border-style: dotted hidden hidden hidden;
+  border-style: hidden hidden hidden hidden;
   text-align: center;
   border-width: 1rem;
   overflow: none;

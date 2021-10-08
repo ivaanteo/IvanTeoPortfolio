@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import classes from "./Project.module.css";
 
-import profilePic from "../../assets/formalPhoto.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -51,7 +50,7 @@ const Project = (props) => {
             <img
               className={classes.carouselImg}
               src={img.img}
-              alt="Picture"
+              alt=""
             ></img>
           </div>
         ))}

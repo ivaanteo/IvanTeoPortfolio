@@ -22,7 +22,7 @@ function App() {
         homeRef={homeRef}
       />
       <Header homeRef={homeRef} aboutMeRef={aboutMeRef} />
-      <AboutMe aboutMeRef={aboutMeRef} />
+      <AboutMe aboutMeRef={aboutMeRef} projectsRef={projectsRef}/>
       <Projects projectsRef={projectsRef} />
       <ContactMe contactMeRef={contactMeRef} />
     </>
