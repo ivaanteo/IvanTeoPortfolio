@@ -1,6 +1,9 @@
+
+export const Links = {aboutMe: "/about-me", projects: "/projects", contact: "/contact"}
+
 const navBarLinks = [
   {
-    to: "/about-me",
+    to: Links.aboutMe,
     text: "About Me",
   },
   // {

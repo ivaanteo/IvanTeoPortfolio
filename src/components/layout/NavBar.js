@@ -1,28 +1,53 @@
 import classes from "./NavBar.module.css";
 import navBarLinks from "../../util/navBarLinks";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import resume from "../../assets/Ivan Teo Resume Oct 2021.pdf";
+import { Links } from "../../util/navBarLinks";
 
 const NavBar = (props) => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
+
+  const Constants = {home: "home", scrollBuffer: 100}
 
   const menuClickHandler = () => {
     setMenuIsOpen((prevState) => {
       return !prevState;
     });
   };
-
   const scrollLinkClickHandler = (event) => {
-    if (event.target.id === "/about-me") {
+    if (event.target.id === Links.aboutMe) {
       props.aboutMeRef.current.scrollIntoView(true);
-    } else if (event.target.id === "/projects") {
+    } else if (event.target.id === Links.projects) {
       props.projectsRef.current.scrollIntoView(true);
-    } else if (event.target.id === "/contact") {
+    } else if (event.target.id === Links.contact) {
       props.contactMeRef.current.scrollIntoView(true);
-    } else if (event.target.id === "home") {
+    } else if (event.target.id === Constants.home) {
       props.homeRef.current.scrollIntoView(true);
     }
   };
+
+  const [selectedTab, setSelectedTab] = useState(Constants.home)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > props.contactMeRef.current.offsetTop - window.innerHeight/2) {
+        setSelectedTab(Links.contact)
+      } 
+      else if (window.scrollY > props.projectsRef.current.offsetTop - window.innerHeight/2) {
+        setSelectedTab(Links.projects)
+      }
+      else if (window.scrollY > props.aboutMeRef.current.offsetTop - window.innerHeight/2) {
+        setSelectedTab(Links.aboutMe)
+      } 
+      else {
+        setSelectedTab(Constants.home)
+      }
+    }
+    document.addEventListener('scroll', handleScroll);
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    }
+  }, [])
 
   return (
     <div className={classes.wrapper}>
@@ -37,7 +62,7 @@ const NavBar = (props) => {
             <a
               key={link.to}
               id={link.to}
-              className={classes.navLink}
+              className={`${selectedTab===link.to ? classes.selectedNavLink : classes.navLink}`}
               onClick={scrollLinkClickHandler}
             >
               {link.text}

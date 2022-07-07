@@ -22,7 +22,14 @@
   cursor: pointer;
 }
 
-
+.selectedNavLink {
+  cursor: pointer;
+  padding: 1rem;
+  color: #00000000;
+  background: -webkit-linear-gradient(right, hotpink, orange);
+  -webkit-background-clip: text;
+  transition: 0.3s linear;
+}
 
 .navLink {
   color: white;
@@ -54,12 +61,6 @@
 .navLink:hover::after {
   transform: scale(1);
   transition: transform 300ms;
-}
-.activeNavLink {
-  color: rgb(79, 248, 130);
-}
-.activeNavLink::after {
-  transform: scale(1);
 }
 
 /* right side */

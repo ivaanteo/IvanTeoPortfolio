@@ -13,6 +13,8 @@ function App() {
   const contactMeRef = useRef();
   const homeRef = useRef();
 
+
+  
   return (
     <>
       <NavBar
