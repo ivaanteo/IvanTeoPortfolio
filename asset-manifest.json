@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/IvanTeoPortfolio/static/css/main.24ceb3fa.chunk.css",
+    "main.js": "/IvanTeoPortfolio/static/js/main.af96f630.chunk.js",
+    "main.js.map": "/IvanTeoPortfolio/static/js/main.af96f630.chunk.js.map",
+    "runtime-main.js": "/IvanTeoPortfolio/static/js/runtime-main.f112896d.js",
+    "runtime-main.js.map": "/IvanTeoPortfolio/static/js/runtime-main.f112896d.js.map",
+    "static/css/2.cbedb4c8.chunk.css": "/IvanTeoPortfolio/static/css/2.cbedb4c8.chunk.css",
+    "static/js/2.36562882.chunk.js": "/IvanTeoPortfolio/static/js/2.36562882.chunk.js",
+    "static/js/2.36562882.chunk.js.map": "/IvanTeoPortfolio/static/js/2.36562882.chunk.js.map",
+    "static/js/3.e9b7657c.chunk.js": "/IvanTeoPortfolio/static/js/3.e9b7657c.chunk.js",
+    "static/js/3.e9b7657c.chunk.js.map": "/IvanTeoPortfolio/static/js/3.e9b7657c.chunk.js.map",
+    "index.html": "/IvanTeoPortfolio/index.html",
+    "static/css/2.cbedb4c8.chunk.css.map": "/IvanTeoPortfolio/static/css/2.cbedb4c8.chunk.css.map",
+    "static/css/main.24ceb3fa.chunk.css.map": "/IvanTeoPortfolio/static/css/main.24ceb3fa.chunk.css.map",
+    "static/js/2.36562882.chunk.js.LICENSE.txt": "/IvanTeoPortfolio/static/js/2.36562882.chunk.js.LICENSE.txt",
+    "static/media/Apple iPhone 11 Pro Max Screenshot 1.f769818b.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 1.f769818b.png",
+    "static/media/Apple iPhone 11 Pro Max Screenshot 2.0b9e172f.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 2.0b9e172f.png",
+    "static/media/Apple iPhone 11 Pro Max Screenshot 3.33bce9ff.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 3.33bce9ff.png",
+    "static/media/Apple iPhone 11 Pro Max Screenshot 4.3a18a29e.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 4.3a18a29e.png",
+    "static/media/Apple iPhone 11 Pro Max Screenshot 5.4e3755e6.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 5.4e3755e6.png",
+    "static/media/Apple iPhone 11 Pro Max Screenshot 6.ba2fe415.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 6.ba2fe415.png",
+    "static/media/Ivan Teo Resume Oct 2021.2985d719.pdf": "/IvanTeoPortfolio/static/media/Ivan Teo Resume Oct 2021.2985d719.pdf",
+    "static/media/evibe1.fb10e9c2.png": "/IvanTeoPortfolio/static/media/evibe1.fb10e9c2.png",
+    "static/media/evibe2.78fa17fe.png": "/IvanTeoPortfolio/static/media/evibe2.78fa17fe.png",
+    "static/media/evibe3.a14c914c.png": "/IvanTeoPortfolio/static/media/evibe3.a14c914c.png",
+    "static/media/formalPhoto.a01de9c4.jpg": "/IvanTeoPortfolio/static/media/formalPhoto.a01de9c4.jpg",
+    "static/media/slick-theme.css": "/IvanTeoPortfolio/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f112896d.js",
+    "static/css/2.cbedb4c8.chunk.css",
+    "static/js/2.36562882.chunk.js",
+    "static/css/main.24ceb3fa.chunk.css",
+    "static/js/main.af96f630.chunk.js"
+  ]
+}
