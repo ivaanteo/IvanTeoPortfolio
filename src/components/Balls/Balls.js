@@ -6,6 +6,11 @@ export default function Balls() {
   const getBallCount = () => {
     return window.innerWidth / 50;
   };
+
+  const getBallVelocity = () => {
+    return Math.min(window.innerWidth / 150, 8);
+  };
+
   const [count, setCount] = useState(getBallCount());
 
   useEffect(() => {
@@ -20,7 +25,7 @@ export default function Balls() {
 
   const ballsModel = Array.from({ length: count }, () => ({
     diameter: Math.random() * 100 + 50,
-    initialVelocity: { x: Math.random() * 10 + 1, y: Math.random() * 10 + 1 },
+    initialVelocity: { x: Math.random() * getBallVelocity() + 1, y: Math.random() * getBallVelocity() + 1 },
   }));
 
   return (
