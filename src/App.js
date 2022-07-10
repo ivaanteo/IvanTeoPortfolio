@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
+import Ball from "./components/Balls/Ball/Ball";
+import Balls from "./components/Balls/Balls";
 
 function App() {
   const aboutMeRef = useRef();
@@ -13,8 +15,6 @@ function App() {
   const contactMeRef = useRef();
   const homeRef = useRef();
 
-
-  
   return (
     <>
       <NavBar
@@ -23,8 +23,10 @@ function App() {
         contactMeRef={contactMeRef}
         homeRef={homeRef}
       />
+      
+      <Balls />
       <Header homeRef={homeRef} aboutMeRef={aboutMeRef} />
-      <AboutMe aboutMeRef={aboutMeRef} projectsRef={projectsRef}/>
+      <AboutMe aboutMeRef={aboutMeRef} projectsRef={projectsRef} />
       <Projects projectsRef={projectsRef} />
       <ContactMe contactMeRef={contactMeRef} />
     </>

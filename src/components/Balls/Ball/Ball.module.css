@@ -1,0 +1,40 @@
+.ball {
+  /* background-color: red; */
+  background: -webkit-linear-gradient(right, hotpink, orange, hotpink, orange);
+  background-size: 500% 500%;
+  position: fixed;
+  -webkit-animation: Animation 2s linear infinite;
+  -moz-animation: Animation 2s linear infinite;
+  animation: Animation 2s linear infinite;
+  filter: blur(10px);
+}
+@-webkit-keyframes Animation {
+  0% {
+    background-position: -75% -75%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  100% {
+    background-position: -75% -75%;
+  }
+}
+@-moz-keyframes Animation {
+  0% {
+    background-position: -75% -75%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  100% {
+    background-position: -75% -75%;
+  }
+}
+@keyframes Animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 80% 80%;
+  }
+}

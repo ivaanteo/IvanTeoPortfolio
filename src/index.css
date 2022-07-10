@@ -87,6 +87,12 @@ button:hover {
   -moz-animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
 }
 
+@media only screen and (min-width: 992px) {
+button {
+  line-height: 30px;
+}
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
