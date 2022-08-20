@@ -1,7 +1,7 @@
 import classes from "./NavBar.module.css";
 import navBarLinks from "../../util/navBarLinks";
 import { useState, useEffect } from "react";
-import resume from "../../assets/Ivan Teo Resume Oct 2021.pdf";
+import resume from "../../assets/Resume_19_Aug_2022.pdf";
 import { Links } from "../../util/navBarLinks";
 
 const NavBar = (props) => {
