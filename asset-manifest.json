@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IvanTeoPortfolio/static/css/main.05c0432c.chunk.css",
-    "main.js": "/IvanTeoPortfolio/static/js/main.19643657.chunk.js",
-    "main.js.map": "/IvanTeoPortfolio/static/js/main.19643657.chunk.js.map",
+    "main.js": "/IvanTeoPortfolio/static/js/main.70745c39.chunk.js",
+    "main.js.map": "/IvanTeoPortfolio/static/js/main.70745c39.chunk.js.map",
     "runtime-main.js": "/IvanTeoPortfolio/static/js/runtime-main.ef58d831.js",
     "runtime-main.js.map": "/IvanTeoPortfolio/static/js/runtime-main.ef58d831.js.map",
     "static/css/2.cbedb4c8.chunk.css": "/IvanTeoPortfolio/static/css/2.cbedb4c8.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/Apple iPhone 11 Pro Max Screenshot 4.3a18a29e.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 4.3a18a29e.png",
     "static/media/Apple iPhone 11 Pro Max Screenshot 5.4e3755e6.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 5.4e3755e6.png",
     "static/media/Apple iPhone 11 Pro Max Screenshot 6.ba2fe415.png": "/IvanTeoPortfolio/static/media/Apple iPhone 11 Pro Max Screenshot 6.ba2fe415.png",
-    "static/media/Ivan Teo Resume Oct 2021.2985d719.pdf": "/IvanTeoPortfolio/static/media/Ivan Teo Resume Oct 2021.2985d719.pdf",
+    "static/media/Resume_19_Aug_2022.0192d004.pdf": "/IvanTeoPortfolio/static/media/Resume_19_Aug_2022.0192d004.pdf",
     "static/media/evibe1.fb10e9c2.png": "/IvanTeoPortfolio/static/media/evibe1.fb10e9c2.png",
     "static/media/evibe2.78fa17fe.png": "/IvanTeoPortfolio/static/media/evibe2.78fa17fe.png",
     "static/media/evibe3.a14c914c.png": "/IvanTeoPortfolio/static/media/evibe3.a14c914c.png",
@@ -32,6 +32,6 @@
     "static/css/2.cbedb4c8.chunk.css",
     "static/js/2.9ae300bc.chunk.js",
     "static/css/main.05c0432c.chunk.css",
-    "static/js/main.19643657.chunk.js"
+    "static/js/main.70745c39.chunk.js"
   ]
 }
