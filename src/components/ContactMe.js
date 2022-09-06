@@ -34,22 +34,6 @@ const ContactMe = (props) => {
           >
             {buttonText} <i className="fa fa-copy"></i>
           </button>
-          <div className={classes.flex}>
-            <img
-              className={classes.logo}
-              src={linkedInLogo}
-              alt={"linkedinLogo"}
-              onClick={() =>
-                openInNewTab("https://www.linkedin.com/in/ivanteozhiming/")
-              }
-            />
-            <img
-              className={classes.logo}
-              src={githubLogo}
-              alt={"githubLogo"}
-              onClick={() => openInNewTab("https://github.com/ivaanteo")}
-            />
-          </div>
         </div>
       </Fade>
     </section>

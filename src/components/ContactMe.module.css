@@ -13,22 +13,7 @@
   width: 67vw
 }
 
-.flex{
-  display: flex;
 
-}
-
-.logo{
-  width: 2rem;
-  margin-right: 0.5rem;
-  cursor: pointer;
-}
-
-.logo:hover{
-  animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
-  -webkit-animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
-  -moz-animation: pulse 1.5s ease infinite, Animation 2s linear infinite;
-}
 
 @keyframes pulse {
   0% {

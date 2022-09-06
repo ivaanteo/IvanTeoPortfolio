@@ -8,6 +8,7 @@ import aux6 from "../assets/AuxBox Screenshots/Apple iPhone 11 Pro Max Screensho
 import evibe1 from "../assets/eVibe Screenshots/evibe1.png";
 import evibe2 from "../assets/eVibe Screenshots/evibe2.png";
 import evibe3 from "../assets/eVibe Screenshots/evibe3.png";
+import Bullet from "../components/Common/Bullet";
 
 export const auxBoxImages = [
   { key: "aux1", img: aux1 },
@@ -37,16 +38,17 @@ export const auxboxDesc = (
 );
 export const auxboxTechDesc = (
   <p>
-    - Fully Programmatic UIKit
+    <Bullet /> Fully Programmatic UIKit
     <br />
-    - Firebase Auth, Storage, Firestore
+    <Bullet /> Firebase Auth, Storage, Firestore
     <br />
-    - Sign in with Apple and Facebook
+    <Bullet /> Sign in with Apple and Facebook
     <br />
-    - Spotify API & SDK
+    <Bullet /> Spotify API & SDK
     <br />
-    - CoreLocation
-    <br />- StoreKit
+    <Bullet /> CoreLocation
+    <br />
+    <Bullet /> StoreKit
   </p>
 );
 
@@ -67,13 +69,14 @@ export const eVibeDesc = (
 
 export const eVibeTechDesc = (
   <p>
-    - Fully Programmatic UIKit
+    <Bullet /> Fully Programmatic UIKit
     <br />
-    - CoreHaptics
+    <Bullet /> CoreHaptics
     <br />
-    - CoreAnimation
+    <Bullet /> CoreAnimation
     <br />
-    - StoreKit
-    <br />- User Defaults
+    <Bullet /> StoreKit
+    <br />
+    <Bullet /> User Defaults
   </p>
 );

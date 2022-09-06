@@ -53,9 +53,19 @@
 .header h3 {
   font-size: clamp(1.25rem, 4vw, 4rem);
   line-height: clamp(1.5rem, 4vw, 4rem);
-  opacity: 0;
-  animation: textFade 3s ease infinite alternate;
+  /* opacity: 0; */
+  /* animation: textFade 3s ease infinite alternate; */
   margin: clamp(1.5rem, 1vw, 2rem) 0 0 0;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: 0.5s linear;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: 0.5s linear;
 }
 
 .header p {

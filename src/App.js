@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
 import Ball from "./components/Balls/Ball/Ball";
 import Balls from "./components/Balls/Balls";
+import FABs from "./components/layout/FABs";
 
 function App() {
   const aboutMeRef = useRef();
@@ -23,7 +24,7 @@ function App() {
         contactMeRef={contactMeRef}
         homeRef={homeRef}
       />
-      
+      <FABs />
       <Balls />
       <Header homeRef={homeRef} aboutMeRef={aboutMeRef} />
       <AboutMe aboutMeRef={aboutMeRef} projectsRef={projectsRef} />
