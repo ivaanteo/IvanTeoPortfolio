@@ -23,7 +23,7 @@ export default function FABs() {
           src={githubLogo}
           alt={"githubLogo"}
           onClick={() =>
-            openInNewTab("https://www.linkedin.com/in/ivanteozhiming/")
+            openInNewTab("https://github.com/ivaanteo/")
           }
         />
       </div>
