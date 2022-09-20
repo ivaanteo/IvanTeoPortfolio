@@ -8,14 +8,14 @@ const Project = (props) => {
   var settings = {
     infinite: true,
     speed: 400,
-    slidesToShow: 3,
+    slidesToShow: props.isLandscape ? 1 : Math.min(props.imgs.length, 3),
     slidesToScroll: 1,
     focusOnSelect: false,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: props.isLandscape ? 1 : 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -48,7 +48,7 @@ const Project = (props) => {
         {props.imgs.map((img) => (
           <div key={img.key} className={classes.carouselContainer}>
             <img
-              className={classes.carouselImg}
+              className={props.isLandscape ? classes.carouselLandscapeImg : classes.carouselImg}
               src={img.img}
               alt=""
             ></img>

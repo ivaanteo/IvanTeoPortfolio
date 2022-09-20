@@ -7,6 +7,9 @@ import {
   evibeImages,
   eVibeDesc,
   eVibeTechDesc,
+  stockFundamentalDesc,
+  stockFundamentalTechDesc,
+  stockFundamentalImages,
 } from "../util/projectHelpers";
 import { Fade } from "react-awesome-reveal";
 
@@ -28,8 +31,7 @@ const Projects = (props) => {
               techDesc={auxboxTechDesc}
               imgs={auxBoxImages}
             />
-          <hr/>
-          {/* <div/> */}
+            <hr />
           </Fade>
           <Fade>
             <Project
@@ -37,6 +39,16 @@ const Projects = (props) => {
               desc={eVibeDesc}
               techDesc={eVibeTechDesc}
               imgs={evibeImages}
+            />
+            <hr />
+          </Fade>
+          <Fade>
+            <Project
+              title={"Stock Fundamental Analysis"}
+              desc={stockFundamentalDesc}
+              techDesc={stockFundamentalTechDesc}
+              imgs={stockFundamentalImages}
+              isLandscape={true}
             />
           </Fade>
           <Fade>

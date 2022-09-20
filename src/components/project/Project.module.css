@@ -35,6 +35,12 @@
   outline: none;
 }
 
+.carouselLandscapeImg {
+  width: 50vw;
+  margin-left: 8vw;
+  border-radius: 0.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .carouselImg {
     width: 30vw;
