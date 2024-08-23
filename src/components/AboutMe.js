@@ -16,11 +16,11 @@ const AboutMe = (props) => {
             <span>About</span> Me
           </h1>
           <p className={classes.longText}>
-            Nice to meet you! I'm Ivan, a budding software developer from
+            Nice to meet you! I'm Ivan, a software engineer from
             Singapore.
             <br />
             <br />
-            I'm also a Year 3 Computer Science and Business undergraduate at
+            I'm also a final year Computer Science and Business undergraduate at
             Nanyang Technological University's Renaissance Engineering Programme
             -- find out more about my course{" "}
             <a
@@ -52,7 +52,7 @@ const AboutMe = (props) => {
             </a>{" "}
             below!
           </p>
-          <div className={classes.languagesContainer}>
+          {/* <div className={classes.languagesContainer}>
             <div className={classes.descContainer}>
               <h3>Tech I use</h3>
               <p>
@@ -75,9 +75,13 @@ const AboutMe = (props) => {
                 <Bullet /> Swift, Objective-C
                 <br />
                 <Bullet /> HTML, CSS, JS
+                <br />
+                <Bullet /> Golang
+                <br />
+                <Bullet /> Kotlin
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </Fade>
       {/* </Slide> */}
