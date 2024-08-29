@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IvanTeoPortfolio/static/css/main.4a1f64c9.chunk.css",
-    "main.js": "/IvanTeoPortfolio/static/js/main.37e1a3aa.chunk.js",
-    "main.js.map": "/IvanTeoPortfolio/static/js/main.37e1a3aa.chunk.js.map",
+    "main.js": "/IvanTeoPortfolio/static/js/main.247c1144.chunk.js",
+    "main.js.map": "/IvanTeoPortfolio/static/js/main.247c1144.chunk.js.map",
     "runtime-main.js": "/IvanTeoPortfolio/static/js/runtime-main.ae80a1b6.js",
     "runtime-main.js.map": "/IvanTeoPortfolio/static/js/runtime-main.ae80a1b6.js.map",
     "static/css/2.ff226217.chunk.css": "/IvanTeoPortfolio/static/css/2.ff226217.chunk.css",
@@ -25,6 +25,27 @@
     "static/media/evibe2.78fa17fe.png": "/IvanTeoPortfolio/static/media/evibe2.78fa17fe.png",
     "static/media/evibe3.a14c914c.png": "/IvanTeoPortfolio/static/media/evibe3.a14c914c.png",
     "static/media/heatmap.dc9c21f7.png": "/IvanTeoPortfolio/static/media/heatmap.dc9c21f7.png",
+    "static/media/image1.13829b37.png": "/IvanTeoPortfolio/static/media/image1.13829b37.png",
+    "static/media/image1.17e5d780.png": "/IvanTeoPortfolio/static/media/image1.17e5d780.png",
+    "static/media/image1.5e891db7.gif": "/IvanTeoPortfolio/static/media/image1.5e891db7.gif",
+    "static/media/image1.cb930e2e.png": "/IvanTeoPortfolio/static/media/image1.cb930e2e.png",
+    "static/media/image2.17a5a0d4.png": "/IvanTeoPortfolio/static/media/image2.17a5a0d4.png",
+    "static/media/image2.268b9c16.png": "/IvanTeoPortfolio/static/media/image2.268b9c16.png",
+    "static/media/image2.8edcf1c9.png": "/IvanTeoPortfolio/static/media/image2.8edcf1c9.png",
+    "static/media/image2.8fd651a2.png": "/IvanTeoPortfolio/static/media/image2.8fd651a2.png",
+    "static/media/image3.5cd793ba.png": "/IvanTeoPortfolio/static/media/image3.5cd793ba.png",
+    "static/media/image3.85cfb0cb.png": "/IvanTeoPortfolio/static/media/image3.85cfb0cb.png",
+    "static/media/image3.9b050999.png": "/IvanTeoPortfolio/static/media/image3.9b050999.png",
+    "static/media/image3.dbb4f395.png": "/IvanTeoPortfolio/static/media/image3.dbb4f395.png",
+    "static/media/image4.03586518.png": "/IvanTeoPortfolio/static/media/image4.03586518.png",
+    "static/media/image4.5a4fcd1b.png": "/IvanTeoPortfolio/static/media/image4.5a4fcd1b.png",
+    "static/media/image4.e4e32e30.png": "/IvanTeoPortfolio/static/media/image4.e4e32e30.png",
+    "static/media/image4.e7aa0c4b.png": "/IvanTeoPortfolio/static/media/image4.e7aa0c4b.png",
+    "static/media/image5.280d0b7d.png": "/IvanTeoPortfolio/static/media/image5.280d0b7d.png",
+    "static/media/image5.43f9d5aa.png": "/IvanTeoPortfolio/static/media/image5.43f9d5aa.png",
+    "static/media/image5.d80b9dbe.png": "/IvanTeoPortfolio/static/media/image5.d80b9dbe.png",
+    "static/media/image5.d9e06347.png": "/IvanTeoPortfolio/static/media/image5.d9e06347.png",
+    "static/media/image6.3c29343e.png": "/IvanTeoPortfolio/static/media/image6.3c29343e.png",
     "static/media/ivan.e5e8dbfe.jpg": "/IvanTeoPortfolio/static/media/ivan.e5e8dbfe.jpg",
     "static/media/linear_regression.2f0b6ea1.png": "/IvanTeoPortfolio/static/media/linear_regression.2f0b6ea1.png",
     "static/media/resume.d6590648.pdf": "/IvanTeoPortfolio/static/media/resume.d6590648.pdf",
@@ -35,6 +56,6 @@
     "static/css/2.ff226217.chunk.css",
     "static/js/2.fc166443.chunk.js",
     "static/css/main.4a1f64c9.chunk.css",
-    "static/js/main.37e1a3aa.chunk.js"
+    "static/js/main.247c1144.chunk.js"
   ]
 }
