@@ -384,9 +384,9 @@ export const pbmTechDesc = (
 
 export const fypDesc = (
   <p>
-    My Final Year Project is a mobile application that uses Augmented Reality to
-    superimpose a pair of spetacles onto the user's face, allowing them to see
-    how they look in different frames.
+    This mobile application uses Augmented Reality to superimpose a pair of
+    spetacles onto the user's face, allowing them to see how they look in
+    different frames.
     <br />
     <br />
     As an extension, the app also allows users to create a 3D model of a pair of
@@ -421,8 +421,8 @@ export const bussinDesc = (
     your bus stop.
     <br />
     <br />
-    This app was inspired by the frustration of waiting for the bus and not
-    knowing when it would arrive.
+    I used this project mainly to learn animations on SwiftUI and caching
+    network requests using NSCache and combine.
     <br />
     <br />
     Written in <span>Swift</span>.
@@ -432,6 +432,8 @@ export const bussinDesc = (
 export const bussinTechDesc = (
   <p>
     <Bullet /> SwiftUI
+    <br />
+    <Bullet /> Combine
     <br />
     <Bullet /> Core Location
     <br />
