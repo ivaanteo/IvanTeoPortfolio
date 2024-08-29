@@ -15,8 +15,7 @@ const AboutMe = (props) => {
             <span>About</span> Me
           </h1>
           <p className={classes.longText}>
-            Nice to meet you! I'm Ivan, a software engineer from
-            Singapore.
+            Nice to meet you! I'm Ivan, a software engineer from Singapore.
             <br />
             <br />
             I'm also a final year Computer Science and Business undergraduate at
@@ -30,9 +29,8 @@ const AboutMe = (props) => {
             >
               <span className={classes.spanBtn}>here</span>
             </a>
-            . I'm currently studying in UC Berkeley as an exchange student for
-            the year, and I'm looking for software engineering internships here
-            during the summer!
+            . I'm graduating in December 2024 and am looking for full time roles
+            in Singapore or New York!
             <br />
             <br />
             It was 2017 when I first watched a movie called "The Social
@@ -43,44 +41,11 @@ const AboutMe = (props) => {
             <br />
             Today, code has become the medium in which I express my creativity
             -- take a look at my{" "}
-            <a
-              className={classes.anchorLink}
-              onClick={onClickHandler}
-            >
+            <a className={classes.anchorLink} onClick={onClickHandler}>
               <span className={classes.spanBtn}>projects</span>
             </a>{" "}
             below!
           </p>
-          {/* <div className={classes.languagesContainer}>
-            <div className={classes.descContainer}>
-              <h3>Tech I use</h3>
-              <p>
-                <Bullet /> React.js, Express, Node.js, MongoDB
-                <br />
-                <Bullet /> Figma
-                <br />
-                <Bullet /> XCode
-                <br />
-                <Bullet /> Git, GitHub
-                <br />
-                <Bullet /> Firebase
-              </p>
-            </div>
-            <div className={classes.descContainer}>
-              <h3>Languages I use</h3>
-              <p>
-                <Bullet /> Python, Java, C/C++
-                <br />
-                <Bullet /> Swift, Objective-C
-                <br />
-                <Bullet /> HTML, CSS, JS
-                <br />
-                <Bullet /> Golang
-                <br />
-                <Bullet /> Kotlin
-              </p>
-            </div>
-          </div> */}
         </div>
       </Fade>
       {/* </Slide> */}
