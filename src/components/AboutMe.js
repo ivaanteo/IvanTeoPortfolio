@@ -1,7 +1,6 @@
 import classes from "./AboutMe.module.css";
 
 import { Fade } from "react-awesome-reveal";
-import Bullet from "./Common/Bullet";
 
 const AboutMe = (props) => {
   const onClickHandler = () => {

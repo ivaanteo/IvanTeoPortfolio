@@ -10,6 +10,18 @@ import {
   stockFundamentalDesc,
   stockFundamentalTechDesc,
   stockFundamentalImages,
+  fundleDesc,
+  fundleTechDesc,
+  fundleImages,
+  pbmDesc,
+  pbmTechDesc,
+  pbmImages,
+  fypDesc,
+  fypTechDesc,
+  fypImages,
+  bussinDesc,
+  bussinTechDesc,
+  bussinImages,
 } from "../util/projectHelpers";
 import { Fade } from "react-awesome-reveal";
 
@@ -50,6 +62,47 @@ const Projects = (props) => {
               imgs={stockFundamentalImages}
               isLandscape={true}
             />
+            <hr />
+          </Fade>
+          <Fade>
+            <Project
+              title={"Fundle"}
+              desc={fundleDesc}
+              techDesc={fundleTechDesc}
+              imgs={fundleImages}
+              isLandscape={true}
+            />
+            <hr />
+          </Fade>
+          <Fade>
+            <Project
+              title={"Purpose Bound Money"}
+              desc={pbmDesc}
+              techDesc={pbmTechDesc}
+              imgs={pbmImages}
+              isLandscape={true}
+            />
+            <hr />
+          </Fade>
+          <Fade>
+            <Project
+              title={"Virtual Spectacle Try-On"}
+              desc={fypDesc}
+              techDesc={fypTechDesc}
+              imgs={fypImages}
+              isLandscape={false}
+            />
+            <hr />
+          </Fade>
+          <Fade>
+            <Project
+              title={"Bussin'"}
+              desc={bussinDesc}
+              techDesc={bussinTechDesc}
+              imgs={bussinImages}
+              isLandscape={false}
+            />
+            <hr />
           </Fade>
           <Fade>
             <h1>More Projects Coming Soon!</h1>
